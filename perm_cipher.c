@@ -39,6 +39,8 @@ int main()
         for (k = 0; i && k < len; ++k)
             printf("%c", temp[trans[k]]);
 
+        ch = '\0';   // FIX: stop the do-while after first print
+
     } while (ch != '\0' && ch != '\n' && ch != ' ');
 
     printf("\n");
